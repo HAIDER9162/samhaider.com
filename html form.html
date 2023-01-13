@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login For Haider</title>
+</head>
+<body>
+    <h1>User Login</h1>
+    <form action="./index.html" method="post">
+        <lebel for="username">Username : </lebel>
+        <input type="text" id="username" placeholder="username" required> <br> <br>
+
+        <lebel for="password">Password : </lebel>
+        <input type="password" id="password" placeholder="your password" required> <br> <br>
+
+        <lebel for="email">Email : </lebel>
+        <input type="email" id="email" placeholder="your email" required> <br>
+
+        <p>Select Your Gender</p>
+
+        <label for="male">Male </label>
+        <input type="radio" name="gender" id="male" value="Gender" required>
+        
+        <label for="female">Female </label>
+        <input type="radio" name="gender" id="female" value="Gender" required>
+        
+        <label for="other">Other </label>
+        <input type="radio" name="gender" id="other" value="Gender" required> <br> <br>
+
+        <label for="age-group">Select Your Age Group </label>
+        <select name="age-group" id="age-group">
+            <option value="Select">Select_</option>
+            <option value="10-20">10-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31-40">31-40</option>            
+            <option value="41-50">41-50</option>
+        </select>
+
+        <br>
+        <input type="submit" value="Sing In">
+    </form>
+</body>
+</html>
